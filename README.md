@@ -6,21 +6,20 @@ Welcome to *NewsGlance, an AI-driven news summarization system that provides con
 
 ## Table of Contents
 1. [Project Overview](#project-overview)  
-2. [Features](#features)  
-3. [Repository Structure](#repository-structure)  
-4. [Methodology](#methodology)  
+2. [Features](#features)   
+3. [Methodology](#methodology)  
    - [Extractive Summarization](#extractive-summarization)  
    - [Abstractive Summarization](#abstractive-summarization)  
-5. [Dataset](#dataset)  
-6. [Fine-Tuned Model](#fine-tuned-model)  
-7. [Installation & Requirements](#installation--requirements)  
-8. [How to Run](#how-to-run)  
-9. [Usage](#usage)  
-10. [Results](#results)  
-11. [Future Work](#future-work)  
-12. [References](#references)  
-13. [License](#license)  
-14. [Contact](#contact)  
+4. [Dataset](#dataset)  
+5. [Fine-Tuned Model](#fine-tuned-model)  
+6. [Installation & Requirements](#installation--requirements)  
+7. [How to Run](#how-to-run)  
+8. [Usage](#usage)  
+9. [Results](#results)  
+10. [Future Work](#future-work)  
+11. [References](#references)  
+12. [License](#license)  
+13. [Contact](#contact)  
 
 ---
 
@@ -46,34 +45,7 @@ We employ multiple techniques, ranging from simple frequency-based methods to ad
 ![image](https://github.com/user-attachments/assets/19eeccef-5ff9-4f56-afd9-e282ea804b7e)
 ---
 
-## 3. Repository Structure
-
-A typical layout of the files and folders is shown below:
-
-
-NewsGlance_News-Summarisation-Project/
-│
-├── StreamlitApp/
-│   ├── highlights_app.py       # Main Streamlit application
-│   ├── summarize.py            # Utility for summarization calls
-│   ├── newsglance.jpg          # Image assets (if any)
-│   └── __pycache__/            # Cache files (auto-generated)
-│
-├── LLM_Approach.ipynb          # Notebook for T5 or large language model approach
-├── RNN_Approach.ipynb          # Notebook for RNN-based abstractive approach
-├── Extractive_TF-IDF.ipynb     # Notebook for TF-IDF-based extractive approach
-├── Frequency_Based_Approach.ipynb
-│
-├── Group_No11_NewsGlance_News_Summarisation_Report.pdf
-├── requirements.txt            # List of Python dependencies
-└── README.md                   # (This file) Project documentation
-
-
-> *Note*: The exact file names or structure may vary slightly in your local copy, but the key components remain the same.
-
----
-
-## 4. Methodology
+## 3. Methodology
 
 This project implements *four* main approaches to text summarization:
 
@@ -103,7 +75,7 @@ This project implements *four* main approaches to text summarization:
 
 ---
 
-## 5. Dataset
+## 4. Dataset
 
 We use the *CNN/DailyMail* dataset, a widely recognized benchmark for news summarization tasks. It contains over 300,000 articles along with human-written “highlights.”
 
@@ -123,7 +95,7 @@ dataset = load_dataset("abisee/cnn_dailymail", "3.0.0")
 
 ---
 
-## 6. Fine-Tuned Model
+## 5. Fine-Tuned Model
 
 We have fine-tuned a *T5-small* model on the CNN/DailyMail dataset to improve the abstractive summarization performance. You can find and download our fine-tuned model here:
 
@@ -141,7 +113,7 @@ model = T5ForConditionalGeneration.from_pretrained("Deepanshu7284/t5-small-finet
 
 ---
 
-## 7. Installation & Requirements
+## 6. Installation & Requirements
 
 1. *Clone this repository*:
    bash
@@ -169,7 +141,7 @@ model = T5ForConditionalGeneration.from_pretrained("Deepanshu7284/t5-small-finet
 
 ---
 
-## 8. How to Run
+## 7. How to Run
 
 To launch the *Streamlit* application, navigate to the StreamlitApp folder (or the project root, depending on your setup) and run:
 
@@ -182,7 +154,7 @@ streamlit run highlights_app.py
 
 ---
 
-## 9. Usage
+## 8. Usage
 
 1. *Open the Web App*  
    After running the streamlit run highlights_app.py command, your browser should display the NewsGlance interface.
@@ -202,7 +174,7 @@ streamlit run highlights_app.py
 
 ---
 
-## 10. Results
+## 9. Results
 
 We evaluated our approaches using standard metrics such as *ROUGE, **METEOR, and **BERTScore*:
 
@@ -213,7 +185,7 @@ You can refer to the PDF report (Group_No11_NewsGlance_News_Summarisation_Report
 
 ---
 
-## 11. Future Work
+## 10. Future Work
 
 1. *Hybrid Approach*: Combine extractive pre-selection of sentences with abstractive rewriting for improved factual accuracy and fluency.  
 2. *Domain-Specific Summarization*: Fine-tune on specialized corpora (finance, medical, legal) to enhance domain-specific summarization quality.  
@@ -223,7 +195,7 @@ You can refer to the PDF report (Group_No11_NewsGlance_News_Summarisation_Report
 
 ---
 
-## 12. References
+## 11. References
 
 - *Dataset*: [CNN/DailyMail on HuggingFace](https://huggingface.co/datasets/abisee/cnn_dailymail)  
 - *Fine-Tuned Model*: [Deepanshu7284/t5-small-finetuned-cnn-news](https://huggingface.co/Deepanshu7284/t5-small-finetuned-cnn-news)  
@@ -236,13 +208,13 @@ For a complete literature survey and methodology, please see the accompanying pr
 
 ---
 
-## 13. License
+## 12. License
 
 This project is open-source. If you plan to use or modify the code, please check the license details (if provided in this repo). Contributions and forks are welcome!
 
 ---
 
-## 14. Contact
+## 13. Contact
 
 If you have any questions, suggestions, or issues running the code, feel free to reach out:
 
