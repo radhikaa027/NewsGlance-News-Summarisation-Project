@@ -36,6 +36,9 @@ A comprehensive project that explores **extractive** and **abstractive** text su
 - **Jupyter Notebooks:** Demonstrations for data exploration, model training, and evaluation.
 - **Streamlit App:** A user-friendly interface for generating summaries.
 - **Evaluation:** Summaries evaluated using ROUGE, METEOR, and BERTScore metrics.
+  
+![image](https://github.com/user-attachments/assets/19eeccef-5ff9-4f56-afd9-e282ea804b7e)
+![image](https://github.com/user-attachments/assets/6b46a2e0-021c-4be1-8ac1-0d6653d2ef6b)
 
 ---
 
