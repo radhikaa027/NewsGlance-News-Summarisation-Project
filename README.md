@@ -1,6 +1,6 @@
 # NewsGlance – Automated News Summarisation
 
-A comprehensive project that explores **extractive** and **abstractive** text summarization approaches on large news datasets. The goal is to deliver concise, coherent summaries for lengthy news articles—helping readers quickly grasp the key information.
+A comprehensive project that explores *extractive* and *abstractive* text summarization approaches on large news datasets. The goal is to deliver concise, coherent summaries for lengthy news articles—helping readers quickly grasp the key information.
 
 ---
 
@@ -23,37 +23,36 @@ A comprehensive project that explores **extractive** and **abstractive** text su
 ---
 
 ## Overview
-**NewsGlance** is an AI-driven summarization tool designed to automatically produce concise summaries of news articles.  
-- **Dataset:** [CNN/DailyMail](https://paperswithcode.com/dataset/cnn-dailymail) – Over 300k news articles with human-written highlights.
-- **Core Objective:** Provide ~100-word summaries for each article using both **extractive** and **abstractive** methods.
+*NewsGlance* is an AI-driven summarization tool designed to automatically produce concise summaries of news articles.  
+- *Dataset:* [CNN/DailyMail](https://paperswithcode.com/dataset/cnn-dailymail) – Over 300k news articles with human-written highlights.
+- *Core Objective:* Provide ~100-word summaries for each article using both *extractive* and *abstractive* methods.
 
 ---
 
 ## Project Features
-- **Multiple Summarization Approaches:**  
-  - **Extractive:** Frequency-based and TF-IDF methods.
-  - **Abstractive:** RNN with Attention and T5 Transformer models.
-- **Jupyter Notebooks:** Demonstrations for data exploration, model training, and evaluation.
-- **Streamlit App:** A user-friendly interface for generating summaries.
-- **Evaluation:** Summaries evaluated using ROUGE, METEOR, and BERTScore metrics.
+- *Multiple Summarization Approaches:*  
+  - *Extractive:* Frequency-based and TF-IDF methods.
+  - *Abstractive:* RNN with Attention and T5 Transformer models.
+- *Jupyter Notebooks:* Demonstrations for data exploration, model training, and evaluation.
+- *Streamlit App:* A user-friendly interface for generating summaries.
+- *Evaluation:* Summaries evaluated using ROUGE, METEOR, and BERTScore metrics.
   
 ![image](https://github.com/user-attachments/assets/19eeccef-5ff9-4f56-afd9-e282ea804b7e)
-![image](https://github.com/user-attachments/assets/6b46a2e0-021c-4be1-8ac1-0d6653d2ef6b)
 
 ---
 
 ## Approaches & Methodologies
 
 ### 1. Extractive Summaries
-- **Frequency-Based Approach:**  
+- *Frequency-Based Approach:*  
   Ranks sentences based on word frequency to select the most important sentences.
-- **TF-IDF Approach:**  
+- *TF-IDF Approach:*  
   Uses TF-IDF vectors to score and select sentences with high information density.
 
 ### 2. Abstractive Summaries
-- **RNN with Attention:**  
+- *RNN with Attention:*  
   An encoder-decoder model that generates summaries by focusing on relevant parts of the text.
-- **T5 Transformer:**  
+- *T5 Transformer:*  
   A state-of-the-art model that generates coherent, human-like summaries after fine-tuning on news data.
 
 ---
@@ -61,9 +60,9 @@ A comprehensive project that explores **extractive** and **abstractive** text su
 ## Evaluation Metrics
 Summaries are evaluated using:
 
-**ROUGE:** (ROUGE-1, ROUGE-2, ROUGE-L) – Measures overlap of n-grams.
-**METEOR:** Assesses semantic similarity through exact and stem matches.
-**BERTScore:** Uses embeddings to evaluate semantic similarity.
+*ROUGE:* (ROUGE-1, ROUGE-2, ROUGE-L) – Measures overlap of n-grams.
+*METEOR:* Assesses semantic similarity through exact and stem matches.
+*BERTScore:* Uses embeddings to evaluate semantic similarity.
 
 ## Features:
 - Input or paste article text.
