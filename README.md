@@ -55,29 +55,6 @@ A comprehensive project that explores **extractive** and **abstractive** text su
 
 ---
 
-## Repository Structure
-├── AI_project_final_word_file.docx
-├── Extractive_One_Approach.ipynb           # Frequency-based approach
-├── Extractive_Two_Approach.ipynb           # TF-IDF-based approach
-├── Flow chart State space search.png
-├── Group_No11_NewsGlance_News_Summarisation_Code
-│   ├── ...
-│   └── (Supporting scripts & code)
-├── Group_No11_NewsGlance_News_Summarisation_PPT.pdf
-├── Group_No11_NewsGlance_News_Summarisation_Plagiarism_Report.pdf
-├── Group_No11_NewsGlance_News_Summarisation_Report.pdf
-├── LLM_Approach.ipynb                      # Abstractive approach (T5 or other large model)
-├── RNN_Approach.ipynb                      # Abstractive approach (RNN + Attention)
-├── StreamlitApp/                           # Streamlit UI code
-│   ├── highlights_app.py                   # Example Streamlit script
-│   ├── newsglance.jpg
-│   └── summarize.py
-├── cnn-data/                               # CSV or data files
-│   ├── train.csv
-│   ├── test.csv
-│   └── validation.csv
-└── README.md                               # Project documentation (this file)
-
 ## Evaluation Metrics
 Summaries are evaluated using:
 
