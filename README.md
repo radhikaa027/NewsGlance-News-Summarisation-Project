@@ -218,7 +218,7 @@ This project is open-source. If you plan to use or modify the code, please check
 
 If you have any questions, suggestions, or issues running the code, feel free to reach out:
 
-- *Author*: [Deepanshu Aggarwal](https://github.com/radhikaa027)
+- *Author*: [Radhika Bhati](https://github.com/radhikaa027)
 - *Email*: [radhikabhati218@gmail.com](mailto:radhikabhati218@gmail.com)
 
 We hope *NewsGlance* helps you quickly stay informed with concise and accurate news summaries. Happy summarizing!
